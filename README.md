@@ -38,6 +38,18 @@ se comparten en todas las rutas. El formulario valida nombre, formato de correo
 y mensaje, y muestra una confirmación local; no está conectado a un servidor ni
 envía datos.
 
+## Publicación en GitHub Pages
+
+El proyecto está configurado para publicarse en el repositorio
+`rgonzalez2026-ui/mini_portafolio`. El workflow
+`.github/workflows/deploy.yml` compila y publica el sitio automáticamente al
+subir cambios a la rama `main`. En GitHub, configura **Settings → Pages → Build
+and deployment → Source → GitHub Actions**. La navegación usa hash para que las
+rutas funcionen también al recargar la página.
+
+Una vez completada la ejecución del workflow, el sitio estará disponible en
+<https://rgonzalez2026-ui.github.io/mini_portafolio/>.
+
 ## Estructura principal
 
 ```text
