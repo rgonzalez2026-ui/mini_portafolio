@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 480" fill="none">
+  <defs>
+    <linearGradient id="screen" x1="86" y1="110" x2="382" y2="338" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#321B25"/>
+      <stop offset="1" stop-color="#151214"/>
+    </linearGradient>
+    <linearGradient id="base" x1="88" y1="348" x2="384" y2="405" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#812744"/>
+      <stop offset="1" stop-color="#4D1C30"/>
+    </linearGradient>
+    <filter id="glow" x="41" y="58" width="398" height="372" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+  <circle cx="240" cy="240" r="168" fill="#812744" fill-opacity=".12"/>
+  <ellipse cx="240" cy="376" fill="#BD5A79" fill-opacity=".3" filter="url(#glow)" rx="145" ry="25"/>
+  <rect x="83" y="78" width="314" height="260" rx="22" fill="#0C0A0B" stroke="#9D4A65" stroke-width="3"/>
+  <rect x="99" y="96" width="282" height="222" rx="12" fill="url(#screen)"/>
+  <path d="M99 130h282" stroke="#573346" stroke-width="2"/>
+  <circle cx="119" cy="113" r="4" fill="#BD5A79"/>
+  <circle cx="135" cy="113" r="4" fill="#D9A2B4"/>
+  <circle cx="151" cy="113" r="4" fill="#704052"/>
+  <rect x="119" y="153" width="88" height="145" rx="7" fill="#100E0F" stroke="#49313B"/>
+  <rect x="132" y="168" width="51" height="5" rx="2.5" fill="#D39AAE"/>
+  <rect x="132" y="183" width="69" height="4" rx="2" fill="#63404E"/>
+  <rect x="132" y="197" width="57" height="4" rx="2" fill="#63404E"/>
+  <rect x="132" y="211" width="62" height="4" rx="2" fill="#63404E"/>
+  <rect x="132" y="236" width="27" height="5" rx="2.5" fill="#BD5A79"/>
+  <rect x="164" y="236" width="37" height="5" rx="2.5" fill="#E8C8D3"/>
+  <rect x="132" y="253" width="49" height="4" rx="2" fill="#63404E"/>
+  <rect x="132" y="267" width="61" height="4" rx="2" fill="#63404E"/>
+  <rect x="221" y="153" width="144" height="67" rx="8" fill="#24171D"/>
+  <text x="237" y="181" fill="#E8C8D3" font-family="monospace" font-size="17">&lt;portfolio /&gt;</text>
+  <path d="m244 199 8 7-8 7m22 0h22" stroke="#BD5A79" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  <rect x="221" y="232" width="144" height="66" rx="8" fill="#24171D"/>
+  <circle cx="249" cy="264" r="17" fill="#812744"/>
+  <path d="M241 265h16m-8-8v16" stroke="#F7F2F4" stroke-linecap="round" stroke-width="2"/>
+  <rect x="276" y="253" width="71" height="5" rx="2.5" fill="#E8C8D3"/>
+  <rect x="276" y="266" width="54" height="4" rx="2" fill="#806875"/>
+  <path d="M65 350h350l-36 45H101l-36-45Z" fill="url(#base)" stroke="#BD5A79" stroke-width="2"/>
+  <path d="M202 362h76l9 13h-94l9-13Z" fill="#28141D"/>
+  <rect x="303" y="57" width="94" height="52" rx="12" fill="#F7F2F4"/>
+  <path d="m322 83 7 7 14-16" stroke="#812744" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+  <text x="349" y="87" fill="#211B1E" font-family="Arial,sans-serif" font-size="12" font-weight="700">IDEAS</text>
+  <rect x="54" y="269" width="75" height="48" rx="12" fill="#27151D" stroke="#704052" stroke-width="2"/>
+  <path d="m77 293 7 7 15-17" stroke="#D39AAE" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+</svg>
